@@ -17,11 +17,15 @@ safe and consistent environment. Also, we want to keep it as simple as possible.
 In order to run `lynx-benchmark` use:
 
     podman pull ghcr.io/group-project-gut/lynx-benchmark:0.1
-    podman run lynx-benchmark:0.1 ADDRESS
+    podman run lynx-benchmark:0.1 [url] [options]
 
 ## Development
 
 #### version 0.1:
 
-- [ ] create N sessions at desired address of service
-- [ ] run some code on the sessions and measure latency
+- [X] create N sessions at desired address of service
+- [X] run some code on the sessions and measure latency
+
+#### version 0.2:
+
+- [X] parsing arguments
