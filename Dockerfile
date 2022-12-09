@@ -2,7 +2,7 @@ FROM golang:alpine AS builder
 WORKDIR /build
 ADD go.mod .
 COPY . .
-RUN go build -o server benchmark.go
+RUN go build -o benchmark benchmark.go
 
 FROM alpine
 WORKDIR /build
