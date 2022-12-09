@@ -8,7 +8,7 @@
             "name": "Debug benchmark.go",
             "type": "go",
             "request": "launch",
-            "args": ["http://localhost:9000", "2", "10"],
+            "args": ["http://server.blazej-smorawski.com:9000", "-t", "2", "-r", "10", "-c"],
             "mode": "auto",
             "program": "${workspaceFolder}/benchmark.go"
         }
