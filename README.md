@@ -29,3 +29,6 @@ In order to run `lynx-benchmark` use:
 #### version 0.2:
 
 - [X] parsing arguments
+
+### version 0.3:
+- [X]  Compatibility with lynx:0.3
